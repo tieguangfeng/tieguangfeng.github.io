@@ -1,0 +1,17 @@
+===在线激活===
+irm https://get.activated.win | iex
+
+===禁用系统保留空间===
+DISM.exe /Online /Set-ReservedStorageState /State:Disabled
+
+===绿色软件===
+https://www.sordum.org
+
+===打开 PowerShell（不是 CMD）===
+slmgr -ipk M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+slmgr -skms kms.03k.org
+slmgr -ato
+slmgr -dlv
+
+===Win11LTSC下载===
+https://drive.massgrave.dev/zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso
