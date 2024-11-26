@@ -1,8 +1,5 @@
-===HomeProxy
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn vsftpd openssh-sftp-server curl luci-theme-argon luci-app-homeproxy luci-i18n-homeproxy-zh-cn
-
-===OpenClash
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn vsftpd openssh-sftp-server coreutils-nohup bash dnsmasq-full curl ca-certificates ipset ip-full libcap libcap-bin ruby ruby-yaml kmod-tun kmod-inet-diag unzip kmod-nft-tproxy luci-compat luci luci-base luci-theme-argon luci-app-openclash
+===OpenClash NetDate
+luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn vsftpd openssh-sftp-server coreutils-nohup bash dnsmasq-full curl ca-certificates ipset ip-full libcap libcap-bin ruby ruby-yaml kmod-tun kmod-inet-diag unzip kmod-nft-tproxy luci-compat luci luci-base luci-theme-argon luci-app-openclash netdata
 
 ===首次启动时运行的脚本
 # Configure Password
