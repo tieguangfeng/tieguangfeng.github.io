@@ -1,6 +1,6 @@
 https://firmware-selector.immortalwrt.org/?version=23.05.4&target=mediatek%2Ffilogic&id=xiaomi_redmi-router-ax6000
 ```
-===OpenClash NetDate
+===OpenClash
 luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn vsftpd openssh-sftp-server coreutils-nohup bash dnsmasq-full curl ca-certificates ipset ip-full libcap libcap-bin ruby ruby-yaml kmod-tun kmod-inet-diag unzip kmod-nft-tproxy luci-compat luci luci-base luci-theme-argon luci-app-openclash
 
 ===首次启动时运行的脚本
