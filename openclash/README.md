@@ -1,5 +1,3 @@
-https://github.com/vernesong/OpenClash/releases
-
 自定义OpenClash
 ```
 curl -# -o /etc/config/openclash https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openclash/openclash.ini
@@ -23,3 +21,4 @@ curl -# -o /etc/openclash/core/clash_meta https://raw.githubusercontent.com/tieg
 ```
 rm -rvf /overlay/*  
 ```
+https://github.com/vernesong/OpenClash/releases
