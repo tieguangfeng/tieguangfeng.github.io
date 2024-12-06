@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "🐼┃备用公众号┃我不是肥猫",
+      "name": "🐼┃豆瓣┃热播",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -249,20 +249,6 @@
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
     },
     {
-      "key": "米搜",
-      "name": "🌖┃米搜┃网盘",
-      "type": 3,
-      "api": "csp_MiSou",
-      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
-    },
-    {
-      "key": "csp_PanSearch",
-      "name": "🚃┃盘搜┃网盘",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
-    },
-    {
       "key": "drpy_哔哩",
       "name": "🅱┃哔哩┃合集",
       "type": 3,
@@ -270,15 +256,6 @@
       "playerType": 1,
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json"
     },
-    {
-      "key": "push_agent",
-      "name": "关注公众号：肥猫宝贝",
-      "type": 3,
-      "api": "csp_Push",
-      "playerType": "1",
-      "searchable": 0,
-      "ext": ".json/txt/ken.txt"
-    }
   ],
   "parses": [
     {
