@@ -21,4 +21,5 @@ curl -# -o /etc/openclash/core/clash_meta https://raw.githubusercontent.com/tieg
 ```
 rm -rvf /overlay/*  
 ```
-https://github.com/vernesong/OpenClash/releases
+
+ [OpenClash官方插件](https://github.com/vernesong/OpenClash/releases)
