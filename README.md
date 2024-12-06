@@ -6,10 +6,10 @@ curl -# -o /etc/openclash/custom/openclash_custom_firewall_rules.sh https://raw.
 ```
 自定义OpenWrt
 ```
-curl -# -o /etc/crontabs/root https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/other/crontabs.txt
-curl -# -o /www/macinstall.html https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/other/macinstall.html
-curl -# -o /www/iptv.txt https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/other/iptv.txt
-curl -# -o /www/tvbox.json https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/other/tvbox.json
+curl -# -o /etc/crontabs/root https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openwrt/crontabs.txt
+curl -# -o /www/macinstall.html https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openwrt/macinstall.html
+curl -# -o /www/iptv.txt https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openwrt/iptv.txt
+curl -# -o /www/tvbox.json https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openwrt/tvbox.json
 ```
 更新Meta内核
 ```
