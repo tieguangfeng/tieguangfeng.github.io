@@ -1,8 +1,8 @@
 自定义OpenClash
 ```
-curl -# -o /etc/config/openclash https://raw.githubusercontent.com/tieguangfeng/openclash/refs/heads/main/openclash.ini
-curl -# -o /etc/openclash/custom/openclash_custom_rules.list https://raw.githubusercontent.com/tieguangfeng/openclash/refs/heads/main/custom_rules.list
-curl -# -o /etc/openclash/custom/openclash_custom_firewall_rules.sh https://raw.githubusercontent.com/tieguangfeng/openclash/refs/heads/main/firewall_rules.sh
+curl -# -o /etc/config/openclash https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openclash/openclash.ini
+curl -# -o /etc/openclash/custom/openclash_custom_rules.list https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openclash/custom_rules.list
+curl -# -o /etc/openclash/custom/openclash_custom_firewall_rules.sh https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openclash/firewall_rules.sh
 ```
 自定义OpenWrt
 ```
@@ -15,7 +15,7 @@ curl -# -o /www/tvbox.json https://raw.githubusercontent.com/tieguangfeng/tiegua
 ```
 rm -rf /etc/openclash/core/
 mkdir /etc/openclash/core/
-curl -# -o /etc/openclash/core/clash_meta https://raw.githubusercontent.com/tieguangfeng/openclash/refs/heads/main/clash_meta && chmod 755 /etc/openclash/core/clash_meta
+curl -# -o /etc/openclash/core/clash_meta https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openclash/clash_meta && chmod 755 /etc/openclash/core/clash_meta
 ```
 系统重置
 ```
