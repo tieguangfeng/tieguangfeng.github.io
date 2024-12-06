@@ -247,14 +247,6 @@
       "searchable": 0,
       "quickSearch": 0,
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
-    },
-    {
-      "key": "drpy_哔哩",
-      "name": "🅱┃哔哩┃合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "playerType": 1,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json"
     }
   ],
   "parses": [
