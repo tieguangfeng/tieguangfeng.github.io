@@ -19,13 +19,6 @@
       "searchable": 0
     },
     {
-      "key": "config",
-      "name": "🐼┃配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
-      "playerType": 2
-    },
-    {
       "key": "csp_FeiMaoUC",
       "name": "⚡┃闪电┃优汐",
       "type": 3,
@@ -216,14 +209,6 @@
       "api": "csp_Bttwo"
     },
     {
-      "key": "荐片",
-      "name": "🎬┃荐片┃影视",
-      "api": "csp_Jianpian",
-      "type": 3,
-      "playerType": "2",
-      "ext": "http://api2.rinhome.com"
-    },
-    {
       "key": "厂长",
       "name": "🏭┃厂长┃影视",
       "type": 3,
@@ -246,79 +231,6 @@
       "ext": "https://www.kkys02.com"
     },
     {
-      "key": "csp_Xb6v",
-      "name": "🐤┃6V磁力┃影视",
-      "type": 3,
-      "api": "csp_Xb6v",
-      "playerType": "2"
-    },
-    {
-      "key": "csp_SP360",
-      "name": "📺┃360┃官源",
-      "type": 3,
-      "api": "csp_SP360"
-    },
-    {
-      "key": "csp_BookTing",
-      "name": "📚┃听书┃音频",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_BookTing",
-      "searchable": 0,
-      "ext": "https://m.ting275.com",
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "csp_YouShengBook",
-      "name": "📚┃有声┃小说",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_LaoBaiBook",
-      "searchable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "csp_Dm84",
-      "name": "🤣┃动漫┃巴士",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_Dm84"
-    },
-    {
-      "key": "csp_FirstAid",
-      "name": "🚑┃急救┃教学",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      },
-      "gridview": "0-0-4.1"
-    },
-    {
-      "key": "酷狗",
-      "name": "🐾┃酷狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "playerType": 2,
-      "ext": {
-        "classes": [
-          {
-            "type_name": "酷狗",
-            "type_id": "kugou"
-          }
-        ]
-      }
-    },
-    {
       "key": "酷奇",
       "name": "🎤┃酷奇┃MV",
       "type": 3,
@@ -335,60 +247,6 @@
       "searchable": 0,
       "quickSearch": 0,
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
-    },
-    {
-      "key": "虎牙直播js",
-      "name": "🐯┃虎牙┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "playerType": 1,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js"
-    },
-    {
-      "key": "斗鱼js",
-      "name": "🐟┃斗鱼┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "playerType": 1,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js"
-    },
-    {
-      "key": "聚短视频js",
-      "name": "📽┃️聚短┃视频",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/短视频.js"
-    },
-    {
-      "key": "看球",
-      "name": "⚾┃看球┃直播",
-      "type": 3,
-      "api": "csp_Kanqiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "gridview": 3,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "drpy_js_310直播",
-      "name": "🏀┃体育┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "changeable": 0,
-      "gridview": 3,
-      "style": {
-        "type": "list"
-      },
-      "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull"
     },
     {
       "key": "米搜",
@@ -411,76 +269,6 @@
       "api": "csp_Bili",
       "playerType": 1,
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json"
-    },
-    {
-      "key": "儿童",
-      "name": "📚┃儿童┃启蒙",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
-    },
-    {
-      "key": "少儿",
-      "name": "📚┃少儿┃教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json"
-    },
-    {
-      "key": "小学",
-      "name": "📚┃小学┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json"
-    },
-    {
-      "key": "初中",
-      "name": "📚┃初中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json"
-    },
-    {
-      "key": "高中",
-      "name": "📚┃高中┃课堂",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json"
     },
     {
       "key": "push_agent",
