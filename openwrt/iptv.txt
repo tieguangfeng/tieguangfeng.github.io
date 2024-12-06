@@ -17,6 +17,9 @@ CCTV14少儿,http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227349/index.m3u
 CCTV15音乐,http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227361/index.m3u8
 CCTV16奥林匹克,http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227346/index.m3u8
 CCTV17农村农业,http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227352/index.m3u8
+动作电影,http://123.189.39.129:9901/tsfile/live/1101_1.m3u8?key=txiptv&playlive=1&authid=0
+高清电影,http://123.189.39.129:9901/tsfile/live/1104_1.m3u8?key=txiptv&playlive=1&authid=0
+家庭影院,http://123.189.39.129:9901/tsfile/live/1105_1.m3u8?key=txiptv&playlive=1&authid=0
 辽宁本地,#genre#
 沈阳新闻综合,http://ltcottcdnfh.ln.chinamobile.com/PLTV/11/224/3221226895/index.m3u8
 辽宁卫视,http://hwottcdn.ln.chinamobile.com/PLTV/11/224/3221227242/index.m3u8
