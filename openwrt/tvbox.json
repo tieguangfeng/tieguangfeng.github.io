@@ -69,6 +69,15 @@
       "api": "csp_Jpyy"
     },
     {
+      "key": "csp_LiteApple",
+      "name": "🍎┃苹果┃影视",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "csp_Nongm",
       "name": "🌾️┃农民┃影视",
       "type": 3,
@@ -190,15 +199,6 @@
       "playerType": 2
     },
     {
-      "key": "csp_LiteApple",
-      "name": "🍎┃苹果┃影视",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_Panda_玩偶哥哥",
       "name": "👲┃玩偶┃影视",
       "api": "csp_Wogg",
@@ -264,29 +264,6 @@
       "type": 3,
       "playerType": "2",
       "api": "csp_Dm84"
-    },
-    {
-      "key": "聚短视频js",
-      "name": "📽┃️聚短┃视频",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/短视频.js"
-    },
-    {
-      "key": "米搜",
-      "name": "🌖┃米搜┃网盘",
-      "type": 3,
-      "api": "csp_MiSou",
-      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
-    },
-    {
-      "key": "csp_PanSearch",
-      "name": "🚃┃盘搜┃网盘",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     }
   ],
   "parses": [
