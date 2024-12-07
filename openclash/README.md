@@ -13,9 +13,7 @@ curl -# -o /www/tvbox.json https://raw.githubusercontent.com/tieguangfeng/tiegua
 ```
 更新Meta内核
 ```
-rm -rf /etc/openclash/core/
-mkdir /etc/openclash/core/
-curl -# -o /etc/openclash/core/clash_meta https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openclash/clash_meta && chmod 755 /etc/openclash/core/clash_meta
+curl https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openclash/clash_meta > /etc/openclash/core/clash_meta && chmod 755 /etc/openclash/core/clash_meta
 ```
 系统重置
 ```
