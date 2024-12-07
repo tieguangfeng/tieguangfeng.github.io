@@ -19,6 +19,13 @@
       "searchable": 0
     },
     {
+      "key": "config",
+      "name": "🐼┃配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2
+    },
+    {
       "key": "csp_FeiMaoUC",
       "name": "⚡┃闪电┃优汐",
       "type": 3,
@@ -209,6 +216,14 @@
       "api": "csp_Bttwo"
     },
     {
+      "key": "荐片",
+      "name": "🎬┃荐片┃影视",
+      "api": "csp_Jianpian",
+      "type": 3,
+      "playerType": "2",
+      "ext": "http://api2.rinhome.com"
+    },
+    {
       "key": "厂长",
       "name": "🏭┃厂长┃影视",
       "type": 3,
@@ -231,22 +246,47 @@
       "ext": "https://www.kkys02.com"
     },
     {
-      "key": "酷奇",
-      "name": "🎤┃酷奇┃MV",
+      "key": "csp_Xb6v",
+      "name": "🐤┃6V磁力┃影视",
+      "type": 3,
+      "api": "csp_Xb6v",
+      "playerType": "2"
+    },
+    {
+      "key": "csp_SP360",
+      "name": "📺┃360┃官源",
+      "type": 3,
+      "api": "csp_SP360"
+    },
+    {
+      "key": "csp_Dm84",
+      "name": "🤣┃动漫┃巴士",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Dm84"
+    },
+    {
+      "key": "聚短视频js",
+      "name": "📽┃️聚短┃视频",
       "type": 3,
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/酷奇MV.js"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/短视频.js"
     },
     {
-      "key": "MTV",
-      "name": "🎧┃明星┃MV",
+      "key": "米搜",
+      "name": "🌖┃米搜┃网盘",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
+      "api": "csp_MiSou",
+      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
+    },
+    {
+      "key": "csp_PanSearch",
+      "name": "🚃┃盘搜┃网盘",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     }
   ],
   "parses": [
@@ -306,7 +346,7 @@
       "name": "live",
       "type": 0,
       "playerType": 1,
-      "url": "http://192.168.123.1/ln.txt",
+      "url": "",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
