@@ -13,6 +13,7 @@ uci set system.@system[0].timezone='CST-8'
 uci set system.@system[0].hostname='Redmi6K'
 # Configure Lan
 uci set network.lan.ipaddr='192.168.123.1'
+uci set dhcp.lan.ra='server'
 # Configure Wan
 uci set network.wan.proto='pppoe'
 uci set network.wan.username='13700005410@net'
