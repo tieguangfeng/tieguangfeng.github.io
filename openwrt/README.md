@@ -13,7 +13,8 @@ uci set system.@system[0].timezone='CST-8'
 uci set system.@system[0].hostname='Redmi6K'
 # Configure Lan
 uci set network.lan.ipaddr='192.168.123.1'
-uci set dhcp.lan.ra='server'
+# uci set dhcp.lan.ra='server'
+# uci set dhcp.@dnsmasq[0].filter_aaaa='1'
 # Configure Wan
 uci set network.wan.proto='pppoe'
 uci set network.wan.username='13700005410@net'
@@ -39,12 +40,6 @@ uci set wireless.@wifi-iface[1].key='13700005410'
 # commit All uci
 uci commit
 echo 'All done!'
-
-===
-# 过滤IPV6AAAA记录
-uci set dhcp.@dnsmasq[0].filter_aaaa='1'
-uci commit dhcp
-/etc/init.d/odhcpd disable
 
 ===
 # 自定义DNS服务器
