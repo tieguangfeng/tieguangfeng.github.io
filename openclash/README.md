@@ -12,4 +12,3 @@ curl -# -o /www/macinstall.html https://raw.githubusercontent.com/tieguangfeng/t
 curl -# -o /www/iptv.txt https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openwrt/iptv.txt
 curl -# -o /www/tvbox.json https://raw.githubusercontent.com/tieguangfeng/tieguangfeng.github.io/refs/heads/main/openwrt/tvbox.json
 ```
- [OpenClash插件下载](https://github.com/vernesong/OpenClash/releases)
