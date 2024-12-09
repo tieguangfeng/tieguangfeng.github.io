@@ -13,8 +13,8 @@ uci set system.@system[0].timezone='CST-8'
 uci set system.@system[0].hostname='Redmi6K'
 # Configure Lan
 uci set network.lan.ipaddr='192.168.123.1'
-uci set dhcp.@dnsmasq[0].filter_aaaa='1'
-# uci set dhcp.lan.ra='server'
+# uci set dhcp.@dnsmasq[0].filter_aaaa='1' #过滤 IPv6 AAAA 记录
+# uci set dhcp.lan.ra='server' #设置后，局域网设备获取IPv6地址
 # Configure Wan
 uci set network.wan.proto='pppoe'
 uci set network.wan.username='13700005410@net'
