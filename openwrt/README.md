@@ -13,8 +13,9 @@ uci set system.@system[0].timezone='CST-8'
 uci set system.@system[0].hostname='Redmi6K'
 # Configure Lan
 uci set network.lan.ipaddr='192.168.123.1'
-# Configure IPv6
+uci set dhcp.@dnsmasq[0].filter_aaaa='1'
 uci del network.globals.ula_prefix
+# Configure IPv6
 uci set network.lan.delegate='0'
 uci set network.lan.ip6assign='64'
 uci set network.lan.ip6ifaceid='eui64'
