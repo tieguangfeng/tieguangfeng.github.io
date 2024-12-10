@@ -47,11 +47,9 @@ uci commit
 echo 'All done!'
 
 ===
-# 自定义DNS服务器
-uci set network.wan.peerdns='0'
-uci set network.wan.dns='119.29.29.29 223.5.5.5'
-# uci set dhcp.@dnsmasq[0].filter_aaaa='1' #过滤 IPv6 AAAA 记录
-# uci set dhcp.lan.ra='server' #设置后，局域网设备获取IPv6地址
+uci set network.wan.peerdns='0' # 自定义DNS服务器
+uci set network.wan.dns='119.29.29.29 223.5.5.5' # 自定义DNS服务器
+uci set dhcp.@dnsmasq[0].filter_aaaa='1' #过滤 IPv6 AAAA 记录
 uci del network.globals.ula_prefix ##全局网络选项,IPv6 ULA 前缀,删除
 uci set network.lan.delegate='0' ##不委托 IPv6 前缀
 uci set network.lan.ip6assign='64' ##IPv6 分配长度
