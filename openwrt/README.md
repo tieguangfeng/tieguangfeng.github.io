@@ -13,8 +13,13 @@ uci set system.@system[0].timezone='CST-8'
 uci set system.@system[0].hostname='Redmi6K'
 # Configure Lan
 uci set network.lan.ipaddr='192.168.123.1'
-# uci set dhcp.@dnsmasq[0].filter_aaaa='1' #过滤 IPv6 AAAA 记录
-# uci set dhcp.lan.ra='server' #设置后，局域网设备获取IPv6地址
+uci del network.globals.ula_prefix
+uci set network.lan.delegate='0'
+uci set network.lan.ip6assign='64'
+uci set network.lan.ip6ifaceid='eui64'
+uci set dhcp.lan.ra='server'
+uci set dhcp.lan.dns_service='0'
+uci set dhcp.lan.ra_flags='none'
 # Configure Wan
 uci set network.wan.proto='pppoe'
 uci set network.wan.username='13700005410@net'
@@ -45,4 +50,13 @@ echo 'All done!'
 # 自定义DNS服务器
 uci set network.wan.peerdns='0'
 uci set network.wan.dns='119.29.29.29 223.5.5.5'
+# uci set dhcp.@dnsmasq[0].filter_aaaa='1' #过滤 IPv6 AAAA 记录
+# uci set dhcp.lan.ra='server' #设置后，局域网设备获取IPv6地址
+uci del network.globals.ula_prefix ##全局网络选项,IPv6 ULA 前缀,删除
+uci set network.lan.delegate='0' ##不委托 IPv6 前缀
+uci set network.lan.ip6assign='64' ##IPv6 分配长度
+uci set network.lan.ip6ifaceid='eui64' ##IPv6 后缀
+uci set dhcp.lan.ra='server' ##RA 服务-服务器模式
+uci set dhcp.lan.dns_service='0' ##取消本地 IPV6 DNS 服务器
+uci set dhcp.lan.ra_flags='none'##RA 标记-无
 ```
