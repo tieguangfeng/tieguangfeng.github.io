@@ -15,13 +15,6 @@ uci set system.@system[0].hostname='Redmi6K'
 uci set network.lan.ipaddr='192.168.123.1'
 uci set dhcp.@dnsmasq[0].filter_aaaa='1'
 uci del network.globals.ula_prefix
-# Configure IPv6
-uci set network.lan.delegate='0'
-uci set network.lan.ip6assign='64'
-uci set network.lan.ip6ifaceid='eui64'
-uci set dhcp.lan.ra='server'
-uci set dhcp.lan.dns_service='0'
-uci set dhcp.lan.ra_flags='none'
 # Configure Wan
 uci set network.wan.proto='pppoe'
 uci set network.wan.username='13700005410@net'
@@ -44,6 +37,15 @@ uci set wireless.@wifi-device[1].channel='40'
 uci set wireless.@wifi-iface[1].encryption='psk2'
 uci set wireless.@wifi-iface[1].ssid='HomeNet@WiFi'
 uci set wireless.@wifi-iface[1].key='13700005410'
+# Configure IPv6
+uci set network.lan.delegate='0'
+uci set network.lan.ip6assign='64'
+uci set network.lan.ip6ifaceid='eui64'
+uci set dhcp.lan.ra='server'
+uci set dhcp.lan.dns_service='0'
+uci set dhcp.lan.ra_flags='none'
+# Configure noIPv6
+# uci set network.wan.ipv6='0'
 # commit All uci
 uci commit
 echo 'All done!'
