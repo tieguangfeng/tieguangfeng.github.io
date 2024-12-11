@@ -19,20 +19,11 @@ uci set network.wan.password='12345678'
 uci set network.lan.ipaddr='192.168.123.1'
 uci set dhcp.@dnsmasq[0].filter_aaaa='1'
 uci del network.globals.ula_prefix
-# Add Modem 192.168.1.1
-uci set network.modem=interface
-uci set network.modem.proto='static'
-uci set network.modem.device='wan'
-uci set network.modem.ipaddr='192.168.1.88'
-uci set network.modem.netmask='255.255.255.0'
-uci set network.modem.metric='50'
-uci set network.modem.delegate='0'
 # Configure WiFi-2.4G
 uci set wireless.@wifi-device[0].disabled='0'
 uci set wireless.@wifi-device[0].htmode='HE40'
 uci set wireless.@wifi-device[0].country='US'
 uci set wireless.@wifi-device[0].channel='6'
-uci set wireless.@wifi-device[0].noscan='1'
 uci set wireless.@wifi-iface[0].encryption='psk2'
 uci set wireless.@wifi-iface[0].ssid='HomeNet@2.4G'
 uci set wireless.@wifi-iface[0].key='13700005410'
@@ -42,7 +33,6 @@ uci set wireless.@wifi-device[1].disabled='0'
 uci set wireless.@wifi-device[1].htmode='HE80'
 uci set wireless.@wifi-device[1].country='US'
 uci set wireless.@wifi-device[1].channel='44'
-uci set wireless.@wifi-device[1].noscan='1'
 uci set wireless.@wifi-iface[1].encryption='psk2'
 uci set wireless.@wifi-iface[1].ssid='HomeNet@WiFi'
 uci set wireless.@wifi-iface[1].key='13700005410'
@@ -70,4 +60,13 @@ uci set dhcp.lan.dns_service='0' ##取消本地 IPV6 DNS 服务器
 uci set dhcp.lan.ra_flags='none'##RA 标记-无
 # Configure noIPv6
 # uci set network.wan.ipv6='0'
+
+# Add Modem 192.168.1.1
+uci set network.modem=interface
+uci set network.modem.proto='static'
+uci set network.modem.device='wan'
+uci set network.modem.ipaddr='192.168.1.88'
+uci set network.modem.netmask='255.255.255.0'
+uci set network.modem.metric='50'
+uci set network.modem.delegate='0'
 ```
