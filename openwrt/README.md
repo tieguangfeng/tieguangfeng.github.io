@@ -11,6 +11,10 @@ luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn vsftpd openss
 uci set system.@system[0].zonename='Asia/Shanghai'
 uci set system.@system[0].timezone='CST-8'
 uci set system.@system[0].hostname='Redmi6K'
+# Configure Wan
+uci set network.wan.proto='pppoe'
+uci set network.wan.username='13700005410@net'
+uci set network.wan.password='12345678'
 # Configure Lan
 uci set network.lan.ipaddr='192.168.123.1'
 uci set dhcp.@dnsmasq[0].filter_aaaa='1'
@@ -23,10 +27,6 @@ uci set network.modem.ipaddr='192.168.1.88'
 uci set network.modem.netmask='255.255.255.0'
 uci set network.modem.metric='50'
 uci set network.modem.delegate='0'
-# Configure Wan
-uci set network.wan.proto='pppoe'
-uci set network.wan.username='13700005410@net'
-uci set network.wan.password='12345678'
 # Configure WiFi-2.4G
 uci set wireless.@wifi-device[0].disabled='0'
 uci set wireless.@wifi-device[0].htmode='HE40'
@@ -52,8 +52,6 @@ uci set network.lan.ip6ifaceid='eui64'
 uci set dhcp.lan.ra='server'
 uci set dhcp.lan.dns_service='0'
 uci set dhcp.lan.ra_flags='none'
-# Configure noIPv6
-# uci set network.wan.ipv6='0'
 # commit All uci
 uci commit
 echo 'All done!'
@@ -69,4 +67,6 @@ uci set network.lan.ip6ifaceid='eui64' ##IPv6 后缀
 uci set dhcp.lan.ra='server' ##RA 服务-服务器模式
 uci set dhcp.lan.dns_service='0' ##取消本地 IPV6 DNS 服务器
 uci set dhcp.lan.ra_flags='none'##RA 标记-无
+# Configure noIPv6
+# uci set network.wan.ipv6='0'
 ```
