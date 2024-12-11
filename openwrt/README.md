@@ -15,6 +15,14 @@ uci set system.@system[0].hostname='Redmi6K'
 uci set network.lan.ipaddr='192.168.123.1'
 uci set dhcp.@dnsmasq[0].filter_aaaa='1'
 uci del network.globals.ula_prefix
+# Configure modem
+uci set network.modem=interface
+uci set network.modem.proto='static'
+uci set network.modem.device='wan'
+uci set network.modem.ipaddr='192.168.1.88'
+uci set network.modem.netmask='255.255.255.0'
+uci set network.modem.metric='50'
+uci set network.modem.delegate='0'
 # Configure Wan
 uci set network.wan.proto='pppoe'
 uci set network.wan.username='13700005410@net'
