@@ -23,7 +23,7 @@ uci del network.globals.ula_prefix
 uci set wireless.@wifi-device[0].disabled='0'
 uci set wireless.@wifi-device[0].htmode='HE40'
 uci set wireless.@wifi-device[0].country='US'
-uci set wireless.@wifi-device[0].channel='6'
+uci set wireless.@wifi-device[0].channel='11'
 uci set wireless.@wifi-iface[0].encryption='psk2'
 uci set wireless.@wifi-iface[0].ssid='HomeNet@2.4G'
 uci set wireless.@wifi-iface[0].key='13700005410'
