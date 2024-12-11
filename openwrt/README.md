@@ -15,7 +15,7 @@ uci set system.@system[0].hostname='Redmi6K'
 uci set network.lan.ipaddr='192.168.123.1'
 uci set dhcp.@dnsmasq[0].filter_aaaa='1'
 uci del network.globals.ula_prefix
-# Configure modem
+# Add Modem 192.168.1.1
 uci set network.modem=interface
 uci set network.modem.proto='static'
 uci set network.modem.device='wan'
